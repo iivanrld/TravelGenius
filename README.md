@@ -1,8 +1,11 @@
 TravelGenius
+
 TravelGenius es una innovadora aplicación de gestión de viajes que aprovecha la inteligencia artificial para revolucionar la forma en que planificas, organizas y experimentas tus travesías.
 
 Características
+
 Planificación de Viajes con IA
+
 Chatbot inteligente para la planificación personalizada de viajes
 
 Sugerencias de rutas personalizadas basadas en los intereses del usuario
@@ -10,6 +13,7 @@ Sugerencias de rutas personalizadas basadas en los intereses del usuario
 Recomendaciones de destinos, alojamientos y actividades
 
 Gestión Integral del Viaje
+
 Creación y personalización de rutas
 
 Datos históricos de viajes, incluyendo gastos y actividades pasadas
@@ -17,6 +21,7 @@ Datos históricos de viajes, incluyendo gastos y actividades pasadas
 Seguimiento de presupuesto y gestión de gastos
 
 Recuerdos Visuales
+
 Álbum de fotos organizado por países y ciudades
 
 Fácil compartición de recuerdos de viaje con amigos y familiares
