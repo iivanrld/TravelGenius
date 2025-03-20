@@ -1,47 +1,126 @@
-TravelGenius
+TripGenius – Aplicación de Gestión de Viajes con IA
 
-TravelGenius es una innovadora aplicación de gestión de viajes que aprovecha la inteligencia artificial para revolucionar la forma en que planificas, organizas y experimentas tus travesías.
 
-Características
+Descripción del Proyecto
 
-Planificación de Viajes con IA
+TripGenius es una aplicación multiplataforma diseñada para ayudar a los viajeros a planificar y gestionar sus viajes de manera eficiente. A través de un chatbot con inteligencia artificial, la aplicación proporciona recomendaciones personalizadas sobre destinos, rutas, actividades y alojamientos, integrando información en tiempo real desde plataformas como Booking y Skyscanner.
+Además, TripGenius permite a los usuarios revisar viajes anteriores, gestionar un álbum de fotos por países y realizar un seguimiento detallado de su presupuesto de viaje.
 
-Chatbot inteligente para la planificación personalizada de viajes
 
-Sugerencias de rutas personalizadas basadas en los intereses del usuario
+Funcionalidades Principales
 
-Recomendaciones de destinos, alojamientos y actividades
+🗺️ Planificación de Viajes con IA
 
-Gestión Integral del Viaje
+Chatbot basado en inteligencia artificial para ayudar en la planificación del viaje.
+Sugerencias de destinos, actividades y rutas personalizadas según intereses (cultura, gastronomía, naturaleza, etc.).
+Integración con APIs de terceros para obtener información en tiempo real sobre vuelos, hoteles y transporte.
 
-Creación y personalización de rutas
+📍 Gestión de Rutas y Viajes Pasados
 
-Datos históricos de viajes, incluyendo gastos y actividades pasadas
+Posibilidad de seleccionar, guardar y personalizar rutas.
+Acceso al historial de viajes anteriores con detalles sobre gastos y actividades realizadas.
 
-Seguimiento de presupuesto y gestión de gastos
+📸 Álbum de Fotos por Destinos
 
-Recuerdos Visuales
+Organización de fotos de viajes por países y ciudades.
+Opción de compartir álbumes con amigos y familiares desde la aplicación.
 
-Álbum de fotos organizado por países y ciudades
+💰 Seguimiento de Presupuesto y Gastos
 
-Fácil compartición de recuerdos de viaje con amigos y familiares
+Herramienta para calcular el presupuesto del viaje.
+Registro automático de gastos a medida que se añaden vuelos, hoteles y otras actividades.
+Alertas si el usuario excede el presupuesto establecido.
 
-Interacción Social
-Comparte planes de viaje e itinerarios con otros
+👥 Interacción Social y Compartir Planes
 
-Funciones de planificación colaborativa de viajes
+Función para compartir planes de viaje con familiares y amigos.
+Posibilidad de compartir el itinerario y los detalles del presupuesto para recibir comentarios.
 
-Stack Tecnológico
-Frontend: Flutter/React Native para desarrollo multiplataforma
+Tecnologías Utilizadas    Categoría	Tecnología
+Lenguajes de Programación =>	Python, JavaScript
+Frontend =>	Flutter / React Native
+Backend =>	Firebase / Node.js
+Base de Datos =>	Firebase Firestore
+IA / Chatbot =>	GPT-4 / Dialogflow
+APIs de Datos =>	Google Maps API, Booking API, Skyscanner API, Amadeus API
+Almacenamiento de Imágenes => Firebase Storage
 
-Backend: Firebase/Node.js
+Plan de Desarrollo
 
-Base de datos: Firebase Firestore
+📌 Fase 1: Investigación y Prototipado (Semana 1-2)
 
-IA/Chatbot: GPT-4/Dialogflow
+Definir el alcance del proyecto.
+Seleccionar y probar APIs externas.
+Diseñar los prototipos de la interfaz de usuario.
 
-APIs: Google Maps, Booking.com, Skyscanner, Amadeus
+🚀 Fase 2: Desarrollo del MVP – Producto Mínimo Viable (Semana 3-8)
 
-Almacenamiento de imágenes: Firebase Storage
+Implementación del chatbot con IA.
+Desarrollo del módulo de planificación de rutas.
+Creación del sistema de gestión de presupuestos y gastos.
+Integración de APIs de vuelos y hoteles.
 
-TravelGenius está diseñado para ser tu compañero de viaje todo en uno, haciendo que la planificación de viajes sea más fácil, eficiente y agradable que nunca.
+✨ Fase 3: Optimización y Funcionalidades Adicionales (Semana 9-12)
+
+Implementación del álbum de fotos por destinos.
+Incorporación del historial de viajes y gastos.
+Desarrollo de la función para compartir planes de viaje.
+
+🔍 Fase 4: Pruebas y Ajustes Finales (Semana 13-14)
+
+Realización de pruebas de usuario.
+Corrección de errores y optimización del rendimiento.
+Ajustes en la experiencia de usuario según el feedback recibido.
+
+📂 Estructura del Proyecto
+
+TripGenius/
+│── frontend/            # Código fuente del frontend (Flutter / React Native)
+│── backend/             # Código fuente del backend (Node.js / Firebase)
+│── database/            # Configuración de Firebase Firestore
+│── assets/              # Recursos gráficos e imágenes
+│── docs/                # Documentación del proyecto
+│── README.md            # Documentación principal
+│── .gitignore           # Archivos a excluir del control de versiones
+│── package.json         # Dependencias del backend
+│── pubspec.yaml         # Dependencias de Flutter (si aplica)
+
+🚀 Cómo Ejecutar el Proyecto
+
+Requisitos
+
+Node.js y npm instalados.
+Flutter o React Native configurado.
+Cuenta de Firebase para gestionar autenticación y base de datos.
+
+Pasos para Iniciar
+Clonar el repositorio:
+git clone https://github.com/tu-usuario/TripGenius.git
+cd TripGenius
+
+Instalar dependencias del backend:
+cd backend
+npm install
+
+Iniciar el backend:
+npm start
+
+Configurar el frontend:
+Si usas Flutter:
+cd frontend
+flutter pub get
+flutter run
+
+Si usas React Native:
+cd frontend
+npm install
+npm start
+
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+✨ Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas colaborar en el desarrollo de TripGenius, abre un issue o envía un pull request.
+
+TripGenius – Tu compañero inteligente para planificar viajes. 🌍✈️
