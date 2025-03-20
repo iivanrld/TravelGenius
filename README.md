@@ -153,3 +153,7 @@ Además, TripGenius permite a los usuarios revisar viajes anteriores, gestionar 
  TripGenius – Tu compañero inteligente para planificar viajes. 🌍✈️
 
  If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+![image](https://github.com/user-attachments/assets/0df807df-efac-4193-9734-b43acaf3d222)
+
