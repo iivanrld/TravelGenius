@@ -96,10 +96,12 @@ Cuenta de Firebase para gestionar autenticación y base de datos.
 Pasos para Iniciar
 Clonar el repositorio:
 git clone https://github.com/tu-usuario/TripGenius.git
+
 cd TripGenius
 
 Instalar dependencias del backend:
 cd backend
+
 npm install
 
 Iniciar el backend:
@@ -108,12 +110,16 @@ npm start
 Configurar el frontend:
 Si usas Flutter:
 cd frontend
+
 flutter pub get
+
 flutter run
 
 Si usas React Native:
 cd frontend
+
 npm install
+
 npm start
 
 
