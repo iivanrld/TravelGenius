@@ -77,21 +77,13 @@ Ajustes en la experiencia de usuario según el feedback recibido.
 TripGenius/
 
 │── frontend/            # Código fuente del frontend (Flutter / React Native)
-
 │── backend/             # Código fuente del backend (Node.js / Firebase)
-
 │── database/            # Configuración de Firebase Firestore
-
 │── assets/              # Recursos gráficos e imágenes
-
 │── docs/                # Documentación del proyecto
-
 │── README.md            # Documentación principal
-
 │── .gitignore           # Archivos a excluir del control de versiones
-
 │── package.json         # Dependencias del backend
-
 │── pubspec.yaml         # Dependencias de Flutter (si aplica)
 
 
