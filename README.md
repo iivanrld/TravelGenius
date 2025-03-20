@@ -1,19 +1,23 @@
 @@ -1,142 +1,12 @@
- TripGenius – Aplicación de Gestión de Viajes con IA
+
  # React + Vite
  
  This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
  
  Descripción del Proyecto
  Currently, two official plugins are available:
- 
- TripGenius es una aplicación multiplataforma diseñada para ayudar a los viajeros a planificar y gestionar sus viajes de manera eficiente. A través de un chatbot con inteligencia artificial, la aplicación proporciona recomendaciones personalizadas sobre destinos, rutas, actividades y alojamientos, integrando información en tiempo real desde plataformas como Booking y Skyscanner.
- Además, TripGenius permite a los usuarios revisar viajes anteriores, gestionar un álbum de fotos por países y realizar un seguimiento detallado de su presupuesto de viaje.
  - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
  - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
- 
  ## Expanding the ESLint configuration
  
+
+TripGenius – Aplicación de Gestión de Viajes con IA
+
+Descripción del Proyecto
+
+TripGenius es una aplicación multiplataforma diseñada para ayudar a los viajeros a planificar y gestionar sus viajes de manera eficiente. A través de un chatbot con inteligencia artificial, la aplicación proporciona recomendaciones personalizadas sobre destinos, rutas, actividades y alojamientos, integrando información en tiempo real desde plataformas como Booking y Skyscanner. 
+Además, TripGenius permite a los usuarios revisar viajes anteriores, gestionar un álbum de fotos por países y realizar un seguimiento detallado de su presupuesto de viaje.
+
  Funcionalidades Principales
  
  🗺️ Planificación de Viajes con IA
@@ -147,4 +151,5 @@
  ¡Las contribuciones son bienvenidas! Si deseas colaborar en el desarrollo de TripGenius, abre un issue o envía un pull request.
  
  TripGenius – Tu compañero inteligente para planificar viajes. 🌍✈️
+
  If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
